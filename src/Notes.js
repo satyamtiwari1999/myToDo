@@ -4,9 +4,7 @@ import './css/tasks.css'
 function Notes() {
     // generating list of toDos
     let [to_do, set_to_do] = useState([
-        {task: "Complete this react app", id: 1},
-        {task: "Study React", id: 2},
-        {task: "Solve DS problems in Js", id: 3}
+        {task: "Remove tasks by clicking on them !!", id: 1},
     ])
     // helper function to remove task from the list
     const handleClickRemoveToDo = (ind) => {
