@@ -1,0 +1,29 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #279AF1;
+    outline: none;
+}
+
+
+.outer-flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-flex{
+    width: 60%;
+}
+
+/* --------------------------------------- */
+
+.title{
+    font-size: 3em;
+    color: white;
+}
+
+hr{
+    border: dashed 0.1px white;
+    margin-bottom: 30px;
+}

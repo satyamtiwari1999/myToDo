@@ -1,0 +1,44 @@
+.task-container{
+    width: 100%;
+    margin: 10px 0;
+    /* background-color: red; */
+}
+
+.task-name{
+
+    display: inline-block;
+
+    color: white;
+    font-size: 1.5em;
+}
+.task-name:hover{
+    text-decoration: line-through 0.9px;
+}
+
+.input-task-field{
+
+    margin: 30px 0;
+
+    font-size: 1.2em;
+    text-align: center;
+    width: 50%;
+    background-color: transparent;
+    border: solid white 1px;
+    color: white;
+}
+
+.input-task-field::placeholder{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: white;
+}
+
+.task-add-button{
+    background-color: White;
+    color: #279AF1;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: white solid 1px;
+    padding: 1px 25px;
+}
